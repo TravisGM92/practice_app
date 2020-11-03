@@ -13,3 +13,20 @@
 //= require rails-ujs
 //= require activestorage
 //= require_tree .
+//= require jquery
+//= require jquery_ujs
+//= require_self
+//
+$(document).ready(
+
+  function(){
+    $(".but").click (function(){
+      // Close all open windows
+      $(".content").stop().slideUp(100);
+      // Toggle this window open/close
+      $(this).next(".content").stop().slideToggle(100);
+      //hitter test//
+    });
+  }
+
+)

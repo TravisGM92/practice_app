@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+
+ .wrap {
+   float: left;
+   margin: 0 20px 0 0;
+ }
+
+.content {
+   margin-top: 10px;
+   background-color: #ff00ed;
+   width: 180px;
+   position: absolute;
+   border-radius: 5px;
+   display: none;
+   margin-left: 10px;
+   box-shadow: 5px 10px #888888;
+}
+
+.content p {
+  margin-top: 25px;
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.main {
+  margin-left: 40%;
+}
+
+.but {
+  margin-top: 30px;
+  width: 200px;
+  height: 100px;
+  font-size: 30px;
+  background-color: #00ff57;
+  border-radius: 5px;
+}
